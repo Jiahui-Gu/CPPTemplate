@@ -31,3 +31,5 @@
 *.out
 *.app
 tempCodeRunnerFile
+template
+.vscode/settings.json
