@@ -30,6 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Personal
 tempCodeRunnerFile
 template
-.vscode/settings.json
+.vscode*
