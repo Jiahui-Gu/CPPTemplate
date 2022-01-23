@@ -14,10 +14,12 @@ Description: CPPTemplate
 #include <queue>
 #include <algorithm>
 #include <math.h>
+#include <map>
 
 using std::vector;
 using std::string;
 using std::unordered_map;
+using std::map;
 using std::unordered_set;
 using std::stack;
 using std::queue;
