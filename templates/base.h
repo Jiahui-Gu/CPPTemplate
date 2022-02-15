@@ -30,20 +30,3 @@ using std::pair;
 using std::cin;
 using std::cout;
 using std::endl;
-
-class Node {
-public:
-    int val;
-    Node* next;
-    
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-    }
-};
-
-int main() {
-    Node* node = new Node(0);
-    cout<<node->val;
-    return 0;
-}
