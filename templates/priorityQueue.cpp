@@ -9,14 +9,15 @@ Description: CPPTemplate
 
 struct cmp{
     bool operator() (int a, int b ){ 
-        //compare  
-        return true; 
+        //比较器返回true意味着b被放在顶端, 如要保证稳定性, 在相等时应当返回false
+        return a>b; 
     }
 };
 
 int main(){
     priority_queue<int,vector<int>,cmp> pq;
     pq.push(444);
+    pq.push(233);
     cout<<pq.top();
     return pq.top();
 }
