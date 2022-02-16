@@ -16,6 +16,8 @@ struct cmp{
 };
 
 int main(){
+    //priority_queue<int, vector<int>, greater<int>> pq; // 小顶堆
+    //priority_queue<int, vector<int>, less<int>> pq; // 大顶堆
     priority_queue<int,vector<int>,cmp> pq;
     pq.push(444);
     pq.push(233);
