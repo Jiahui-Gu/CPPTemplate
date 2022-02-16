@@ -9,7 +9,8 @@ Description: CPPTemplate
 
 struct cmp{
     bool operator() (int a, int b ){ 
-        //比较器返回true意味着b被放在顶端, 如要保证稳定性, 在相等时应当返回false
+        // 比较器返回true意味着b被放在顶端
+        // 在ab相等时应当返回false
         return a>b; 
     }
 };
