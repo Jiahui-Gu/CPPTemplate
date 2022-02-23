@@ -15,6 +15,7 @@ Description: CPPTemplate
 #include <algorithm>
 #include <math.h>
 #include <map>
+#include <deque>
 
 using std::vector;
 using std::string;
@@ -30,3 +31,4 @@ using std::pair;
 using std::cin;
 using std::cout;
 using std::endl;
+using std::deque;
