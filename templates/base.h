@@ -17,6 +17,7 @@ Description: CPPTemplate
 #include <map>
 #include <deque>
 
+using namespace std;
 using std::vector;
 using std::string;
 using std::unordered_map;

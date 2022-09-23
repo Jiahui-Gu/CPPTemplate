@@ -35,3 +35,5 @@
 tempCodeRunnerFile
 template
 .vscode*
+templates/general
+templates/list

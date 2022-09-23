@@ -5,7 +5,34 @@ Date: 2022-01-10
 Description: CPPTemplate
 *************************************************/
 
-#include "base.h"
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <math.h>
+#include <map>
+#include <deque>
+
+using namespace std;
+using std::vector;
+using std::string;
+using std::unordered_map;
+using std::map;
+using std::unordered_set;
+using std::stack;
+using std::queue;
+using std::priority_queue;
+using std::max;
+using std::min;
+using std::pair;
+using std::cin;
+using std::cout;
+using std::endl;
+using std::deque;
 
 class Node {
 public:
@@ -17,6 +44,7 @@ public:
         next = NULL;
     }
 };
+
 int main() {
     Node* node = new Node(0);
     cout<<node->val;
