@@ -36,15 +36,16 @@ using std::deque;
 
 struct cmp{
     bool operator() (int a, int b ){ 
-        // 比较器返回true意味着b被放在顶端
-        // 在ab相等时应当返回false
+        // When the comparator returns true, b is placed at the top.
+        // Return false when a and b are equal.
         return a>b; 
     }
 };
 
 int main(){
-    //priority_queue<int, vector<int>, greater<int>> pq; // 小顶堆
-    //priority_queue<int, vector<int>, less<int>> pq; // 大顶堆
+    // priority_queue<int> pq; // default: big at top
+    //priority_queue<int, vector<int>, greater<int>> pq; // small at top
+    //priority_queue<int, vector<int>, less<int>> pq; // big at top
     priority_queue<int,vector<int>,cmp> pq;
     pq.push(444);
     pq.push(233);

@@ -1,4 +1,4 @@
 # CPPTemplate
-一个c++的刷题模板,包含了刷题常用的库,并且为特定题型准备了特定的模板(目前包括:链表/树,优先级队列,排序)
+A C++ competitive programming template with commonly used libraries and problem-specific templates. Current templates cover linked lists/trees, priority queues, and sorting.
 
-如果觉得这个模板对你有帮助,麻烦点一个小星星啦,这对我很重要:)
+If this template helps you, please give it a star. It means a lot to me :)

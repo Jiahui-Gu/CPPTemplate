@@ -35,12 +35,12 @@ using std::endl;
 using std::deque;
 
 struct cmp{
-	bool operator()(const double a, const double b){
-        // 比较器返回true意味着, a被放在前面
-        // 在ab相等时应当返回false
-        // 如要保证稳定性, 应当使用stable_sort
+    bool operator()(const double a, const double b){
+        // When the comparator returns true, a is placed before b.
+        // Return false when a and b are equal.
+        // Use stable_sort if stability is required.
         return int(a) < int(b);
-	}
+    }
 };
 
 int main(){
